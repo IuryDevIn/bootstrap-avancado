@@ -1,0 +1,44 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color: aqua;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #FFF;
+    color: rgb(166, 6, 172);
+}
+
+#cabecalho .nav .nav-link, .navbar-brand, .navbar-brand:hover{
+    color: rgb(166, 6, 172);
+}
+
+.navbar-brand{
+    font-family: Titillium Web, sans-serif;
+}
+
+.section-title{
+    font-family: Titillium Web, cursive;
+}
+
+.nav-produtos .nav-link.active, #fale button{
+    background-color: aqua;
+    color:rgb(166, 6, 172) ;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+@media (max-width: 767px){
+    .carousel img{
+        height: 280px;
+    }
+}
